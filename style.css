@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    color: #FFF;
+}
+
+.reto1 header,
+.reto1 footer,
+.r1-sidebar,
+.reto1-content {
+    padding: 20px;
+}
+
+.reto1 header,
+.reto1 footer {
+    background: #FED0D1;
+}
+
+.r1-sidebar {
+    background: #F34A4E;
+}
+
+.reto1-content {
+    color: #777;
+}
+
+/**
+ * Flex things:
+ * — Mobile first
+ * — Responsive
+ */
+.reto1 {
+    min-height: 100vh;
+}
+
+.reto1,
+.reto1-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.reto1-content {
+    flex: 1 1 auto;
+}
+
+@media (min-width: 768px) {
+    .reto1-sidebar-1 {
+        order: -1;
+    }
+
+    .reto1-body {
+        flex-direction: row;
+    }
+
+    .r1-sidebar {
+        flex: 0 0 260px;
+    }
+}
