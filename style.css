@@ -56,6 +56,16 @@ body {
     padding: 0;
 }
 
+/* ARTICLES CSS */
+.article-content {
+    text-align: justify;
+}
+
+.article-content footer {
+    background: #FFF;
+
+}
+
 /**
  * Flex things:
  * — Mobile first
@@ -88,6 +98,7 @@ body {
     .r1-sidebar {
         flex: 0 0 260px;
     }
+
     .main-header .container {
         justify-content: space-between;
     }
@@ -124,4 +135,3 @@ img {
     display: inline-block;
     padding: .5em 1.5em;
 }
-
