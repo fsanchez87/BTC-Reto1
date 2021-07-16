@@ -28,6 +28,14 @@ body {
     background: #F34A4E;
 }
 
+.reto1-sidebar-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    ;
+}
+
 .reto1-content {
     color: #777;
 }
@@ -86,7 +94,7 @@ body {
     flex: 1 1 auto;
 }
 
-@media (min-width: 899px) {
+@media (min-width: 1200px) {
     .reto1-sidebar-1 {
         order: -1;
     }
