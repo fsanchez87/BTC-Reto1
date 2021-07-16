@@ -94,15 +94,14 @@ body {
     flex: 1 1 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 798px) {
     .reto1-sidebar-1 {
         order: -1;
     }
 
     .reto1-body {
         flex-direction: row;
-        max-width: 138vh;
-        margin: auto;
+
     }
 
     .r1-sidebar {
@@ -111,6 +110,13 @@ body {
 
     .main-header .container {
         justify-content: space-between;
+    }
+}
+
+@media (min-width:1550px) {
+    .reto1-body {
+        max-width: 138vh;
+        margin: auto
     }
 }
 
