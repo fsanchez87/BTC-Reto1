@@ -33,7 +33,10 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    ;
+}
+
+.reto1-body ul li:hover {
+    text-decoration: underline;
 }
 
 .reto1-content {
