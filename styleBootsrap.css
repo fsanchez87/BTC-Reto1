@@ -8,19 +8,7 @@ html {
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
-
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-
-p {}
-
-a {}
 
 /***** Header content *****/
 .main-header {
@@ -37,9 +25,7 @@ a {}
     padding: 0;
 }
 
-.main-nav__item {
-
-}
+.main-nav__item {}
 
 .main-nav__link {
     font-size: 0.75em;
@@ -51,6 +37,24 @@ a {}
 }
 
 /***** Main content *****/
+
+/**** Sidebars *****/
+.sidebars {
+    padding: 20px;
+    color: #FFF;
+    background: #F34A4E;
+}
+
+.sidebar-1 {}
+
+.sidebar-1__list {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.sidebar-1__item:hover{
+    text-decoration: underline;
+}
 
 /***** Footer content *****/
 .footer {
