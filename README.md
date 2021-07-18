@@ -29,3 +29,13 @@
 - **Técnicas de diseño CSS**
 
 **El Proyecto se entregará en ClassRoom, dejando el enlace del GitHub de tu repositorio.**
+
+### Archivos
+
+- *Index.html*  Página relizada con HTML, CSS y Flexbox
+- *style.css* Hoja de estilos para 'index.html'
+- *contact.html* Página con HTML, CSS y Bootstrap.
+- *styleBootstrap.css* Hoja de estilos para contact.html, he integrado la nomenclatura BEM CSS
+
+#### Comentario
+
